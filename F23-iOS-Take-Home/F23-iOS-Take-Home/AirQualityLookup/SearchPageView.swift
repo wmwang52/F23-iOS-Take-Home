@@ -10,6 +10,7 @@ import SwiftUI
 struct SearchPageView: View {
     @StateObject private var vm = SearchPageViewModel()
     @StateObject var vm2: FavoritesLookupViewModel
+
     var body: some View {
         NavigationStack {
             List {
@@ -32,6 +33,7 @@ struct SearchPageView: View {
                 Section("Results") {
                     switch vm.state {
                     case .success(let AirQuality):
+
                         Text("**Location:** \(AirQuality.data.city), \(AirQuality.data.state), \(AirQuality.data.country)")
                             .font(.title3)
                         Text("**MEP Standard AQI:** \(AirQuality.data.current.pollution.aqicn)")
