@@ -7,7 +7,7 @@
 
 import Foundation
 
-var APIKEY = ""
+var APIKEY = 
 
 struct IQAirService {
     private let session: URLSession = .shared
@@ -37,7 +37,6 @@ extension IQAirService {
         components?.queryItems = [URLQueryItem(name: "city", value: "\(city)"), URLQueryItem(name: "state", value: "\(state)"), URLQueryItem(name: "country", value: "\(country)"), URLQueryItem(name: "key", value: "\(APIKEY)")]
 
         guard let url = components?.url else { fatalError("Invalid URl") }
-        print(url)
 
         let (data, _) = try await session.data(from: url)
 

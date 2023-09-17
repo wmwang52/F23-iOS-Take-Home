@@ -26,13 +26,9 @@ struct F23_iOS_Take_HomeApp: App {
             .task {
                 do {
                     vm2.userDefaultsGet()
-
                     for city in vm2.listOfCities {
                         vm2.getDataFromState(CityInfo: city)
                     }
-                    print(vm2.listOfCities)
-                } catch {
-                    print(error.localizedDescription)
                 }
             }
         }

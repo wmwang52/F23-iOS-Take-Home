@@ -16,15 +16,15 @@ struct SearchPageView: View {
                 Section {
                     HStack {
                         Spacer()
-                        Button{
+                        Button {
                             vm.startAirQualitySearch()
-                        }label: {
+                        } label: {
                             Image("OhareAirImage")
                                 .resizable()
                                 .scaledToFit()
                                 .frame(height: 260)
                         }
-                        
+
                         Spacer()
                     }
                 }
@@ -59,26 +59,26 @@ struct SearchPageView: View {
                         Text("There was an Error with fetching the location")
                     }
                 }
-
             }
             .navigationTitle("O'Hare Air")
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
-                        vm2.listOfCities.append([vm.AirQualityData.data.city, vm.AirQualityData.data.state, vm.AirQualityData.data.country])
-                        for city in vm2.listOfCities {
-                            vm2.getDataFromState(CityInfo: city)
+                        var listOfData = [vm.AirQualityData.data.city, vm.AirQualityData.data.state, vm.AirQualityData.data.country]
+                        if !vm2.listOfCities.contains(listOfData) {
+                            vm2.listOfCities.append(listOfData)
+                            for city in vm2.listOfCities {
+                                vm2.getDataFromState(CityInfo: city)
+                            }
+                            vm2.userDefaultsWrite()
                         }
 
-                        vm2.userDefaultsWrite()
-                        print(vm2.listOfCities)
                     } label: {
                         Text("Add To Favorites")
                     }
                 }
             }
         }
-        
     }
 }
 
