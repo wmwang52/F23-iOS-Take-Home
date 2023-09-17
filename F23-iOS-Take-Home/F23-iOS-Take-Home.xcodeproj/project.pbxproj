@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34168F782AB3637D00950457 /* F23_iOS_Take_HomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34168F772AB3637D00950457 /* F23_iOS_Take_HomeApp.swift */; };
+		34168F7A2AB3637D00950457 /* SearchPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34168F792AB3637D00950457 /* SearchPageView.swift */; };
+		34168F7C2AB3637D00950457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34168F7B2AB3637D00950457 /* Assets.xcassets */; };
+		34168F7F2AB3637D00950457 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34168F7E2AB3637D00950457 /* Preview Assets.xcassets */; };
+		34168F862AB4B9E000950457 /* IQAir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34168F852AB4B9E000950457 /* IQAir.swift */; };
+		34168F8A2AB4BAED00950457 /* IQAirService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34168F892AB4BAED00950457 /* IQAirService.swift */; };
+		34168F8D2AB4BD8A00950457 /* SearchPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34168F8C2AB4BD8A00950457 /* SearchPageViewModel.swift */; };
+		34168F8F2AB4BF8400950457 /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34168F8E2AB4BF8400950457 /* LoadingState.swift */; };
+		34168F912AB4C33C00950457 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34168F902AB4C33C00950457 /* LocationManager.swift */; };
+		34168F932AB4C4D600950457 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34168F922AB4C4D600950457 /* Location.swift */; };
+		34168F952AB4EBD200950457 /* FavoritesLookupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34168F942AB4EBD200950457 /* FavoritesLookupView.swift */; };
+		34379F902AB6AEEF00B30C59 /* FavoritesLookupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34379F8F2AB6AEEF00B30C59 /* FavoritesLookupViewModel.swift */; };
+		34379F982AB6B08800B30C59 /* CityDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34379F972AB6B08800B30C59 /* CityDataView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34168F742AB3637D00950457 /* F23-iOS-Take-Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "F23-iOS-Take-Home.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34168F772AB3637D00950457 /* F23_iOS_Take_HomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F23_iOS_Take_HomeApp.swift; sourceTree = "<group>"; };
+		34168F792AB3637D00950457 /* SearchPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPageView.swift; sourceTree = "<group>"; };
+		34168F7B2AB3637D00950457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34168F7E2AB3637D00950457 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34168F852AB4B9E000950457 /* IQAir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQAir.swift; sourceTree = "<group>"; };
+		34168F892AB4BAED00950457 /* IQAirService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQAirService.swift; sourceTree = "<group>"; };
+		34168F8C2AB4BD8A00950457 /* SearchPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPageViewModel.swift; sourceTree = "<group>"; };
+		34168F8E2AB4BF8400950457 /* LoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
+		34168F902AB4C33C00950457 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		34168F922AB4C4D600950457 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		34168F942AB4EBD200950457 /* FavoritesLookupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesLookupView.swift; sourceTree = "<group>"; };
+		34379F8F2AB6AEEF00B30C59 /* FavoritesLookupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesLookupViewModel.swift; sourceTree = "<group>"; };
+		34379F972AB6B08800B30C59 /* CityDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDataView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34168F712AB3637D00950457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34168F6B2AB3637D00950457 = {
+			isa = PBXGroup;
+			children = (
+				34168F762AB3637D00950457 /* F23-iOS-Take-Home */,
+				34168F752AB3637D00950457 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34168F752AB3637D00950457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34168F742AB3637D00950457 /* F23-iOS-Take-Home.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34168F762AB3637D00950457 /* F23-iOS-Take-Home */ = {
+			isa = PBXGroup;
+			children = (
+				34168F772AB3637D00950457 /* F23_iOS_Take_HomeApp.swift */,
+				34168F972AB4EBDE00950457 /* FavoritesPage */,
+				34168F8B2AB4BD5F00950457 /* AirQualityLookup */,
+				34379F922AB6AFF400B30C59 /* CityDataPage */,
+				34168F882AB4BAC700950457 /* Services */,
+				34168F872AB4B9F200950457 /* Models */,
+				34168F7B2AB3637D00950457 /* Assets.xcassets */,
+				34168F7D2AB3637D00950457 /* Preview Content */,
+			);
+			path = "F23-iOS-Take-Home";
+			sourceTree = "<group>";
+		};
+		34168F7D2AB3637D00950457 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				34168F7E2AB3637D00950457 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		34168F872AB4B9F200950457 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				34168F922AB4C4D600950457 /* Location.swift */,
+				34168F852AB4B9E000950457 /* IQAir.swift */,
+				34168F8E2AB4BF8400950457 /* LoadingState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		34168F882AB4BAC700950457 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				34168F892AB4BAED00950457 /* IQAirService.swift */,
+				34168F902AB4C33C00950457 /* LocationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		34168F8B2AB4BD5F00950457 /* AirQualityLookup */ = {
+			isa = PBXGroup;
+			children = (
+				34168F8C2AB4BD8A00950457 /* SearchPageViewModel.swift */,
+				34168F792AB3637D00950457 /* SearchPageView.swift */,
+			);
+			path = AirQualityLookup;
+			sourceTree = "<group>";
+		};
+		34168F972AB4EBDE00950457 /* FavoritesPage */ = {
+			isa = PBXGroup;
+			children = (
+				34379F8F2AB6AEEF00B30C59 /* FavoritesLookupViewModel.swift */,
+				34168F942AB4EBD200950457 /* FavoritesLookupView.swift */,
+			);
+			path = FavoritesPage;
+			sourceTree = "<group>";
+		};
+		34379F922AB6AFF400B30C59 /* CityDataPage */ = {
+			isa = PBXGroup;
+			children = (
+				34379F972AB6B08800B30C59 /* CityDataView.swift */,
+			);
+			path = CityDataPage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34168F732AB3637D00950457 /* F23-iOS-Take-Home */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34168F822AB3637D00950457 /* Build configuration list for PBXNativeTarget "F23-iOS-Take-Home" */;
+			buildPhases = (
+				34168F702AB3637D00950457 /* Sources */,
+				34168F712AB3637D00950457 /* Frameworks */,
+				34168F722AB3637D00950457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "F23-iOS-Take-Home";
+			productName = "F23-iOS-Take-Home";
+			productReference = 34168F742AB3637D00950457 /* F23-iOS-Take-Home.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34168F6C2AB3637D00950457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					34168F732AB3637D00950457 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 34168F6F2AB3637D00950457 /* Build configuration list for PBXProject "F23-iOS-Take-Home" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34168F6B2AB3637D00950457;
+			productRefGroup = 34168F752AB3637D00950457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34168F732AB3637D00950457 /* F23-iOS-Take-Home */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34168F722AB3637D00950457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34168F7F2AB3637D00950457 /* Preview Assets.xcassets in Resources */,
+				34168F7C2AB3637D00950457 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34168F702AB3637D00950457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34168F8F2AB4BF8400950457 /* LoadingState.swift in Sources */,
+				34168F8A2AB4BAED00950457 /* IQAirService.swift in Sources */,
+				34379F902AB6AEEF00B30C59 /* FavoritesLookupViewModel.swift in Sources */,
+				34168F952AB4EBD200950457 /* FavoritesLookupView.swift in Sources */,
+				34379F982AB6B08800B30C59 /* CityDataView.swift in Sources */,
+				34168F932AB4C4D600950457 /* Location.swift in Sources */,
+				34168F7A2AB3637D00950457 /* SearchPageView.swift in Sources */,
+				34168F912AB4C33C00950457 /* LocationManager.swift in Sources */,
+				34168F8D2AB4BD8A00950457 /* SearchPageViewModel.swift in Sources */,
+				34168F782AB3637D00950457 /* F23_iOS_Take_HomeApp.swift in Sources */,
+				34168F862AB4B9E000950457 /* IQAir.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34168F802AB3637D00950457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34168F812AB3637D00950457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34168F832AB3637D00950457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"F23-iOS-Take-Home/Preview Content\"";
+				DEVELOPMENT_TEAM = 6C894L8XAD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "QIAir requires the use of your location to find the Air Quality in your Area";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wmwang.F23-iOS-Take-Home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34168F842AB3637D00950457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"F23-iOS-Take-Home/Preview Content\"";
+				DEVELOPMENT_TEAM = 6C894L8XAD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "QIAir requires the use of your location to find the Air Quality in your Area";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wmwang.F23-iOS-Take-Home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34168F6F2AB3637D00950457 /* Build configuration list for PBXProject "F23-iOS-Take-Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34168F802AB3637D00950457 /* Debug */,
+				34168F812AB3637D00950457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34168F822AB3637D00950457 /* Build configuration list for PBXNativeTarget "F23-iOS-Take-Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34168F832AB3637D00950457 /* Debug */,
+				34168F842AB3637D00950457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34168F6C2AB3637D00950457 /* Project object */;
+}
